@@ -31,7 +31,7 @@ export default function Example() {
                           Components
                       </TabButton>
                       <TabButton isSelected={selectedButton === 'jsx'}
-                                 onClick={() => handleButtonClick('props')}>
+                                 onClick={() => handleButtonClick('jsx')}>
                           JSX
                       </TabButton>
 

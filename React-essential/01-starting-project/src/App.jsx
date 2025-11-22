@@ -15,8 +15,8 @@ function App() {
             <h3>{EXAMPLES[selectedTopic].title}</h3>
             <p>{EXAMPLES[selectedTopic].description}</p>
             <pre>
-                           <code>{EXAMPLES[selectedTopic].code}</code>
-                       </pre>
+                <code>{EXAMPLES[selectedTopic].code}</code>
+            </pre>
         </div>);
     }
 
@@ -33,7 +33,7 @@ function App() {
                     <h2>Core Concepts</h2>
                     <ul>
                         {
-                            CORE_CONCEPTS.map((item) => (<CoreConcept key = {item.title} {...item} />))
+                            CORE_CONCEPTS.map((item) => (<CoreConcept key={item.title} {...item} />))
                         }
 
                         {/*<CoreConcept*/}
